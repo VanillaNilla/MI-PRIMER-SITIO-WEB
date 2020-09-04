@@ -1,0 +1,152 @@
+@font-face{
+  font-family: 'Oswald', sans-serif;
+  src:url(https://fonts.googleapis.com/css2?)
+}
+
+body{
+  margin-left: 5.2%;
+  margin-right: 5.2%;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav{
+  background-color: rgb(58, 77, 59 );
+  border-radius: 5px;
+}
+.menu{
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block; 
+  margin: 0;
+}
+
+.menu a{
+  padding: 50px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.menu a:hover{
+  background-color: tomato;
+}
+
+.fondo_verde_banner{
+  background-color: #e56d63;
+  overflow: hidden;
+  color:#fcfcfc ;
+  text-align: center;
+  text-justify: distribute;
+  padding: 50px;
+}
+
+.Imagen_fondo{
+  height:100px;
+  background: url(../img/fresas.jpg);
+  padding: 100px;
+  border-radius: 5px;
+}
+
+p{
+  text-align: justify;
+}
+
+.dos_columnas{
+  width: 1024px;
+  margin: auto;
+}
+.columna_izquierda{
+  width:300px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 60px;
+}
+
+.columna_derecha{
+  width:400px;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 150px;
+}
+
+img.imagen_vanilla{
+  width: 150px;
+  height: 150px;
+}
+
+.columna_derecha a{
+  color:#e56d63;
+}
+
+.columna_derecha a:hover{
+  text-decoration: none;
+}
+
+.columna_derecha li{
+  list-style:none;
+  margin-bottom: 10px;
+}
+.tres_columnas{
+  background-color:#e56d63 ;
+  color:wheat;
+}
+
+
+.tres_columnas li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+.tres_columnas a{
+  color: wheat;
+  width:1024px;
+  margin:auto;
+
+}
+
+.tres_columnas.col{
+  width: 330px;
+  vertical-align: top;
+}
+
+.col{
+  display:inline-block;
+}
+
+.tres_columnas_wrapper{
+  background: pink;
+}
+
+.icon{
+  width:40px;
+  height: 40px;
+  background: red;
+  display:inline-block;
+}
+
+.twitter{
+  background: url(../img/iconos/twitter2.png);
+  height: 40px;
+  width: 40px;
+}
+
+.facebook{
+  background: url(../img/iconos/facebook2.png);
+}
+
+.github{
+  background: url(../img/iconos/github2.png);
+}
+
+.instagram{
+  background: url(../img/iconos/instagram2.png);
+}
+
+.pie_de_pagina{
+  background: rgb(58, 77, 59 );
+  padding: 60px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}

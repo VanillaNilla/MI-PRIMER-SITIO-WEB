@@ -1,0 +1,40 @@
+#main-container{
+    margin:150px auto;
+    width:600px;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
+
+th,td{
+    border: solid 1px black;
+    padding: 15px;
+}
+
+thead{
+    background-color: rgb(58, 77, 59 );
+    border-bottom: solid 5px rgb(229, 109, 96);
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color:pink;
+}
+
+td:hover{
+    background-color: yellow;
+    color: rgb(139, 28, 28);
+}
+
+.col_paginas{
+    text-align: center;
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
